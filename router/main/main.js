@@ -3,8 +3,9 @@ var app = express();
 var router = express.Router();
 var path = require('path');
 
-router.get('/', function(req, res) {
-    console.log('router 실행됨')
+router.get('/', (req, res) => {
+    console.log('router 실행됨', req.user);
+    let id = req.user;
     res.sendFile(path.join(__dirname, "../../public/main.html"));
 });
 
