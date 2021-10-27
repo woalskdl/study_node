@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa9c79c-6eaf-41aa-9212-16f0fb5f0d0f" name="Changes" comment="post, get routing까지">
-      <change afterPath="$PROJECT_DIR$/views/join.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/logout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/main.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/join/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/join/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/main/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/main/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/welcome.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/welcome.ejs" afterDir="false" />
     </list>
-    <list default="true" id="aaa9c79c-6eaf-41aa-9212-16f0fb5f0d0f" name="Changes" comment="router 설정, db연결" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,6 +58,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="D:\Programming\Tool\IntelliJ\IntelliJ IDEA 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">

@@ -26,9 +26,10 @@ router.get('/', (req, res) => {
     res.render('join.ejs', {'message' : msg});
 });
 
+// SESSION save
 passport.serializeUser((user,done) => {
-    console.log('passport session save : ', user.id);
-    done(null, user.id);
+    console.log('passport session save : ', user);
+    done(null, user);
 });
 
 passport.deserializeUser((id, done) => {
